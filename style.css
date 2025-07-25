@@ -35,7 +35,7 @@ main,header{
     gap: 50px;
 
 }
-li{
+.home {
     list-style:none;
     font-size: 1rem;
     font-weight: 600;  
@@ -108,4 +108,22 @@ li{
 .lily-usd{
     font-size: 1.3rem;
     font-weight: 700;
+}
+/* section lover */
+.lover{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 50px;
+    margin-top: 210px;
+}
+.lover1{
+    font-size: 3.1rem;
+    font-weight: 700;
+}
+.lover2{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
 }
