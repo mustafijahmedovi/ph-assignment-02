@@ -265,3 +265,27 @@ main,header{
     background-color: bisque;
     color: #E95A08;
 }
+
+/* footer last */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    /* align-items: center; */
+}
+.ovi{
+    list-style: none;
+    margin: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-nav{
+    display: flex;
+    
+}
+.sense{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    width: 360px;
+    height: 81px;
+}
