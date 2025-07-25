@@ -75,6 +75,10 @@ main,header{
     font-weight: 600;
     padding: 19px 80px;
 }
+.primary:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
 .plants{
     text-align: center;
 }
@@ -148,4 +152,116 @@ main,header{
     text-align: center;
     margin-top: 134px;
     
+}
+
+/* bloom section */
+.bloom-card {
+    background-image: url(./assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367px;
+    height: 198px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ana-card{
+    background-image: url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 367px;
+    height: 198px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.zabo-card{
+    background-image: url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    /* align-items: center; */
+    width: 753px;
+    height: 423px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 130px;
+}
+.grid1{
+    display: grid;
+    gap: 20px;
+}
+.same{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.zabo-off{
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.shop-btn{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.shop-btn1{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.shop-btn1:hover{
+    color: rgb(255, 225, 0);
+    cursor: pointer;
+}
+.shop-btn:hover{
+    color: aqua;
+    cursor: pointer;
+}
+/* footer */
+.join{
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    height: 533px;
+
+}
+.mail{
+    gap:0px;
+}
+.email{
+    padding: 19px 53px;
+}
+.subscribe{
+    margin-left: -8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    padding: 19px 53px;
+
+}
+.subscribe:hover{
+    cursor: pointer;
+    background-color: bisque;
+    color: #E95A08;
 }
