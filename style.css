@@ -127,3 +127,25 @@ main,header{
     color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
+
+/* latest deals */
+.latest{
+    color: #E95A08;
+}
+.deals{
+    font-size: 3.1rem;
+    font-weight: 700;
+}
+.dealsp{
+    width: 890px;
+    height: 54px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin:0 auto;
+}
+.latest-deals{
+    text-align: center;
+    margin-top: 134px;
+    
+}
